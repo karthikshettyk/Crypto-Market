@@ -1,14 +1,23 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: sans-serif;
 }
 
-img {
-  background-color: black;
+body {
+  background-image: url("./assets/bg.png");
+  background-size: cover;
+}
+.navbar > div > img {
+  margin-top: 10px;
+  margin-left: 36px;
+  width: 90px;
+  height: 30px;
 }
 
 .navbar {
   background-color: black;
+  height: 66px;
 }
 
 .line {
@@ -16,20 +25,29 @@ img {
   top: 10px;
   left: 200px;
   background-color: white;
+  width: 1px;
+  height: 32px;
+}
+
+.down-arrow {
+  position: absolute;
+  top: 10px;
+  left: 312px;
   width: 2px;
-  height: 15px;
+}
+
+.down-image {
+  width: 20px; 
+  height: 16px;
 }
 
 .grow-list {
   position: absolute;
-  top: 10px;
+  top: 15px;
   left: 250px;
 }
 .list {
   list-style: none;
-  margin-top: 10px;
-  margin-left: 10px;
-  padding: 20px;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -37,50 +55,48 @@ img {
 .list-item {
   display: inline-block;
   color: white;
-}
-
-.hero {
-  background-image: url("./assets/bg.png");
-  width: auto;
-  height: 900px;
+  margin-left: 60px;
 }
 
 .button-small {
   position: absolute;
-  top: 0px;
-  right: 10px;
-  background-color: pink;
+  top: 15px;
+  right: 60px;
+  background-color: #ba0cc5;
+  border-color: #ba0cc5;
   color: white;
-  width: 100px;
-  height: 50px;
+  width: 140px;
+  height: 34px;
   border-radius: 10px;
   font-weight: bold;
+  border-style: solid;
 }
 .button-large {
   position: absolute;
-  top: 600px;
-  left: 600px;
-  background-color: pink;
+  top: 460px;
+  left: 530px;
+  background-color: #ba0cc5;
   color: white;
-  width: 200px;
-  height: 60px;
+  width: 280px;
+  height: 50px;
   border-radius: 10px;
-  font-weight: bold;
+  font-size: 24px;
+  border-style: solid;
+  border-color: #ba0cc5;
 }
 
 .hero-heading {
   position: absolute;
-  top: 250px;
-  left: 250px;
-  font-size: 100px;
+  top: 200px;
+  left: 380px;
+  font-size: 76px;
   color: white;
 }
 
-
 .hero-description {
   position: absolute;
-  top: 460px;
-  left: 250px;
-  font-size: 50px;
+  top: 400px;
+  left: 430px;
+  font-size: 24px;
   color: white;
 }
